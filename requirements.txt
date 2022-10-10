@@ -1,0 +1,15 @@
+torch==1.11.0+cu113
+torchsummary==1.5.1
+torchvision==0.12.0+cu113
+tqdm==4.63.0
+scikit-image==0.19.2
+scikit-learn==1.0.2
+scipy==1.8.0
+pickle-mixin==1.0.2
+pickleshare==0.7.5
+Pillow==9.0.1
+pandas==1.4.1
+python-dotenv==0.19.2
+pytesseract==0.3.9
+alive-progress==2.3.1
+black==22.1.0
