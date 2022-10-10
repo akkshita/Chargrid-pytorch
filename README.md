@@ -1,11 +1,3 @@
-# Chargrid Pytorch
-
-This is the pytorch implementation of Chargrid paper [Arxive Link](https://arxiv.org/abs/1809.08799).  
-
-Pre-processing has been taken from Antoine Delplace's repository.  
-Also, for tensorflow2.0 implementation check out his repository [Link Here](https://github.com/antoinedelplace/Chargrid)
-
-[See this for model description](https://github.com/sciencefictionlab/chargrid-pytorch/blob/master/Model%20Architecture.MD)
 
 ## Installation
 After cloning this repository
@@ -36,16 +28,3 @@ Or for resumable training run
 ```bash
 python resumable.py
 ```
-## Dataset
-This implementation uses The ICDAR 2019 dataset.  
-For more information and download sources check [Niansong Zhang's work](https://github.com/zzzDavid/ICDAR-2019-SROIE)
-
-## Code Style
-We use [black](https://black.readthedocs.io/en/stable/index.html) code formatter.
-Before committing please run following in your terminal from the project root directory.
-```commandline
-black ./*/*.py
-```
-
-## License
-[GPLV3](https://choosealicense.com/licenses/gpl-3.0/)
